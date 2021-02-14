@@ -13,8 +13,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 80%;
     min-height: 100vh;
+    margin: 0 auto;
 }
 
 form{
