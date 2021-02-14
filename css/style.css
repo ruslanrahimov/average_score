@@ -14,7 +14,9 @@ body{
     justify-content: center;
     align-items: center;
     width: 80%;
-    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    min-height: -moz-available;
+    min-height: stretch;
     margin: 0 auto;
     padding: 0 3rem;
 }
