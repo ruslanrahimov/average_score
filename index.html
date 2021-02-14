@@ -13,10 +13,13 @@
     <main class="container">
         <form>
             <label for="vize">Vize Puanınızı Giriniz:</label>
-            <input type="number" name="vize" id="vize" min="0" max="100">
+            <input type="number" name="vize" id="vize" min="0" max="100" placeholder="0">
 
             <label for="final">Final Puanınızı Giriniz:</label>
-            <input type="number" name="final" id="final" min="0" max="100">
+            <input type="number" name="final" id="final" min="0" max="100" placeholder="0">
+
+            <button id="solution">Hesapla</button>
+            <button type="reset" id="Clear">Sil</button>
 
             <label for="ortalama">Ortalama:</label>
             <input type="text" name="ortalama" placeholder="0" id="ortalama" disabled>

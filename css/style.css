@@ -29,9 +29,13 @@ label{
 
 input{
 font-size: 2rem;
-margin: 2rem 0;
+margin: 1.5rem 0;
+padding-left: .8rem;
 }
 
-.vize{
-    
+button{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
