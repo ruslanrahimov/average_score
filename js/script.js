@@ -16,6 +16,6 @@ btn.addEventListener("click", (e) => {
   ortalama.value = ortSolution(x, y);
 
   if (+ortalama.value > 100) {
-    alert("Siktir Lan!");
+    alert("İmkansız!");
   }
 });
